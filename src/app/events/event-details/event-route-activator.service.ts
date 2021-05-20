@@ -2,7 +2,7 @@ import { CanActivate, Router, UrlTree } from '@angular/router';
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot } from '@angular/router';
 
-import { EventService } from './shared/events.service';
+import { EventService } from '../shared/events.service';
 import { Observable } from 'rxjs';
 
 @Injectable({
